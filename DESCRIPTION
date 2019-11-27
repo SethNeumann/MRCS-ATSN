@@ -1,0 +1,12 @@
+Dispatcher/Operator Telephone board / Electronic Speech Telephone Network board (ASTN)
+
+This is a Model Railroad Control Systems design by Clint Gilliland,
+Seth Neumann and John Plocher.
+
+  1. Change headers for external pots to 4 position on ALL 3 pots, so there is a ground on the (new) position 4.  Handy if the user has bought some shielded wire and wants to use it on all pots.  Should help with noise and RF (cell phone) interference.
+  2. Remove C5, was a roll off to prevent pops but really didn’t help
+  3. Jumper and new 1K resistor  to bring mic preamp down to unit gain for line level input.  This is intended for interfacing with line level mic sources such as computer output from Skype for remote dispatching.
+  4. Add pads for 100pF monolithic caps on mic in, audio out and both sides of xfmr facing the world.  This is to filter out any cell phone interference
+  5. Made new component for inexpensive (did I say “cheap?) banggood coupling xmfr and put in parallel with TY145P.  Cost reduction.
+
+
