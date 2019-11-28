@@ -1,5 +1,5 @@
 # MRCS-ATSN
-### License: CERN Open Hardware Licence v1.2
+### License: Creative Commons Attribution-NonCommercial-ShareAlike
 
 ## Dispatcher/Operator Telephone board / Electronic Speech Telephone Network board (ASTN)
 
