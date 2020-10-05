@@ -17942,7 +17942,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="15K"/>
 <part name="SL2" library="SPCoast" deviceset="CONNECTOR-M04" device="POLAR_LOCK" value="0.100"/>
 <part name="JP5" library="SPCoast" deviceset="JUMPER-3" device="PTH-LOCK" value="0.100"/>
-<part name="JP9" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK"/>
+<part name="JP9" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK" value="0.200"/>
 <part name="C2" library="rcl" deviceset="C-US" device="025-030X050" value="0.1uF"/>
 <part name="C6" library="rcl" deviceset="C-US" device="025-030X050" value="0.1uF"/>
 <part name="R2" library="bourns_test" deviceset="3386-" device="K" value="100K"/>
