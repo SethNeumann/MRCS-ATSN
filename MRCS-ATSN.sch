@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17929,8 +17929,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Q2" library="transistor-pnp" deviceset="2N4126*" device="" value="2N4403"/>
-<part name="JP4" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK"/>
-<part name="JP8" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK"/>
+<part name="JP4" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK" value="0.100"/>
+<part name="JP8" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK" value="0.100"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="PTH" value="1N4734A 5.6 V"/>
 <part name="C1" library="rcl" deviceset="CPOL-US" device="E2-5" value="10 uf @ 50"/>
 <part name="Q1" library="transistor" deviceset="*-NPN-" device="TO92-EBC" technology="29" value="2N4401"/>
@@ -17940,8 +17940,8 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="22K"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="22K"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="15K"/>
-<part name="SL2" library="SPCoast" deviceset="CONNECTOR-M04" device="POLAR_LOCK"/>
-<part name="JP5" library="SPCoast" deviceset="JUMPER-3" device="PTH-LOCK" value="Phase"/>
+<part name="SL2" library="SPCoast" deviceset="CONNECTOR-M04" device="POLAR_LOCK" value="0.100"/>
+<part name="JP5" library="SPCoast" deviceset="JUMPER-3" device="PTH-LOCK" value="0.100"/>
 <part name="JP9" library="SPCoast" deviceset="CONNECTOR-M02" device="508-LOCK"/>
 <part name="C2" library="rcl" deviceset="C-US" device="025-030X050" value="0.1uF"/>
 <part name="C6" library="rcl" deviceset="C-US" device="025-030X050" value="0.1uF"/>
@@ -17952,7 +17952,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="SUPPLY1" library="supply2" deviceset="+24V" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+24V" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="+24V" device=""/>
-<part name="SL1" library="SPCoast" deviceset="CONNECTOR-M04" device="POLAR_LOCK"/>
+<part name="SL1" library="SPCoast" deviceset="CONNECTOR-M04" device="POLAR_LOCK" value="0.100"/>
 <part name="R1" library="bourns_test" deviceset="3386-" device="K" value="10K"/>
 <part name="BOARD1" library="SPCoast" deviceset="BOARD" device="69X160" value="BOARD69X100"/>
 <part name="J2" library="SPCoast" deviceset="CONNECTOR-RJ25" device="-43860-2-MOLEX" value="RJ14"/>
@@ -17970,14 +17970,14 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="VCC3" library="supply1" deviceset="VCCINT" device=""/>
 <part name="VCC4" library="supply1" deviceset="VCCINT" device=""/>
 <part name="U$1" library="SPCoast" deviceset="MRCS-LOGO" device="BOT-LARGE"/>
-<part name="SL3" library="SPCoast" deviceset="CONNECTOR-M04" device="POLAR_LOCK"/>
+<part name="SL3" library="SPCoast" deviceset="CONNECTOR-M04" device="POLAR_LOCK" value="0.100"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="CON1" library="SPCoast 2017_04" deviceset="CONNECTOR-M04" device="LOCK" value="Audio"/>
-<part name="CON2" library="SPCoast 2017_04" deviceset="CONNECTOR-M04" device="LOCK" value="Break-In"/>
+<part name="CON1" library="SPCoast 2017_04" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
+<part name="CON2" library="SPCoast 2017_04" deviceset="CONNECTOR-M04" device="LOCK" value="0.100"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="1K"/>
-<part name="JP1" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK"/>
+<part name="JP1" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK" value="0.100"/>
 <part name="C5" library="rcl" deviceset="C-US" device="050-025X075" value="100 pF"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C13" library="rcl" deviceset="C-US" device="050-025X075" value="100 pF"/>
